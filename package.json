@@ -1,6 +1,6 @@
 {
   "name": "node-requirejs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lets you use you requirejs configuration in Node",
   "main": "lib/node-require.js",
   "directories": {
