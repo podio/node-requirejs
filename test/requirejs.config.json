@@ -1,7 +1,7 @@
 {
   "baseUrl": "",
   "paths": {
-    "JSXTransformer": "bower_components/react/JSXTransformer",
+    "some-module": "modules/level1/level2/some-module",
     "unexpected": "lib/vendor/unexpected"
   },
   "waitSeconds": 30,

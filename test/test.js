@@ -40,8 +40,23 @@ describe('node-requirejs', function() {
   describe('should apply the configuration', function() {
 
     it('should require modules from the root', function() {
-      requirejs
-    })
+      var someModule = requirejs('some-module');
+
+      expect(someModule, 'to be defined');
+      expect(someModule.content(), 'to be', 'awesome content');
+      expect(someModule.upperContent(), 'to be', 'AWESOME CONTENT');
+    });
+
+    it('should require modules from the given baseUrl', function() {
+      requirejs.config({ "baseUrl": "modules/level1" });
+      requirejs.config({ "paths": { "some-module": "level2/some-module" } });
+      var someModule = requirejs('some-module');
+
+      expect(someModule, 'to be defined');
+      expect(someModule.content(), 'to be', 'awesome content');
+      expect(someModule.upperContent(), 'to be', 'AWESOME CONTENT');
+
+    });
 
   })
 
