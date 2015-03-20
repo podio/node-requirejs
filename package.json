@@ -14,7 +14,7 @@
     "unexpected": "~6.4.0"
   },
   "files": [
-    "lib/node-requirejs"
+    "lib/node-requirejs.js"
   ],
   "scripts": {
     "test": "mocha"
