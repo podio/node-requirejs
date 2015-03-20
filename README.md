@@ -30,7 +30,7 @@ var requirejs = require('requirejs').requirejs(yourRequireJSConfig, someExtraCon
 var someModule = requirejs('some-module');
 ```
 
-*N.B.* The component has a default configuration (that you can of course override):
+**N.B.** The component has a default configuration (that you can of course override):
 
 ```javascript
 {
