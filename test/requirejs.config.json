@@ -1,0 +1,25 @@
+{
+  "baseUrl": "",
+  "paths": {
+    "JSXTransformer": "bower_components/react/JSXTransformer",
+    "unexpected": "lib/vendor/unexpected"
+  },
+  "waitSeconds": 30,
+  "jsx": {
+    "fileExtension": ".jsx",
+    "transformOptions": {
+      "harmony": true,
+      "inlineSourceMap": true
+    }
+  },
+  "css": {
+    "fileExtension": ".scss"
+  },
+  "component": {
+    "fileExtension": ".jsx",
+    "transformOptions": {
+      "harmony": true,
+      "inlineSourceMap": true
+    }
+  }
+}

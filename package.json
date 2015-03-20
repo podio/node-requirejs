@@ -1,0 +1,33 @@
+{
+  "name": "node-requirejs",
+  "version": "0.0.2",
+  "description": "Lets you use you requirejs configuration in Node",
+  "main": "lib/node-require.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "requirejs": "^2.1.16"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.1",
+    "unexpected": "~6.4.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/podio/node-requirejs.git"
+  },
+  "keywords": [
+    "requirejs",
+    "node"
+  ],
+  "author": "Domenico Matteo <matteo.domenico@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/podio/node-requirejs/issues"
+  },
+  "homepage": "https://github.com/podio/node-requirejs"
+}
